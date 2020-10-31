@@ -1,0 +1,264 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Satisfy&display=swap);
+
+html{
+    position: relative;
+    font-family: 'Montserrat';
+}
+
+body{
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+nav{
+    height: 60px;
+    padding-bottom: 80px;
+
+}
+
+nav img{
+    
+    margin-left: 20px;
+    padding-top: -5px;
+    padding-bottom: -2px;
+}
+
+nav ul li{
+    margin-left: 15px;
+    color: black
+}
+
+.jumbotron{
+    position: relative;
+    z-index:-101;
+    padding-top: 600px;
+    margin-bottom: -40px;
+    height: 820px;
+  }
+  
+#video-background { 
+    position: fixed;
+      top: 60px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      overflow: hidden;
+      z-index: -100;
+      width:100%;
+  }
+
+  .jumbotron h1{
+    font-size: 70px;
+    color: white;
+}
+
+.jumbotron h5{
+    font-size: 20px;
+    color: white;
+
+}
+
+section{
+    min-height: 1000px;
+}
+
+.Tentang{
+    background: url('img/hitam.png');
+}
+
+.Tentang hr{
+    width: 300px;
+    border-top: 5px solid white
+}
+
+.Tentang h2{
+    color: #ffffff;
+    font-family: 'Satisfy';
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.Tentang p{
+    color: #ffffff;
+}
+
+.pembuka p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.Tentang b{
+    font-size: 22px;
+}
+
+.Tentang li{
+    color: #ffffff;
+}
+
+.medsos{
+    margin-right: -100px;
+}
+
+.medsos p b{
+    padding-bottom: 100px;
+}
+
+.card{
+    margin-bottom: 80px;
+}
+
+.Berita{
+    background: url('img/abu.png');
+}
+
+.Berita h2{
+    
+        color: #ffffff;
+        font-family: 'Satisfy';
+        font-size: 50px;
+        padding-top: 20px;
+}
+
+.Berita h3{
+    color: white;
+    font-weight: bolder;
+  
+}
+
+.Berita h5{
+    color: white;
+    font-size: 18px;
+}
+
+.Berita hr{
+    width: 300px;
+    border-top: 4px solid white;
+}
+
+.tahun {
+    width: 80%;
+    margin-left: 60px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.tahun h5{
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-left: 0;
+    padding-right: 5px;
+    margin-right: -50px;
+}
+
+.tahun img{
+    padding-right: 20px;
+    margin-left: 55px;
+}
+
+.Kegiatan{
+    background: url('img/hitam.png');
+}
+
+.Kegiatan hr{
+    width: 300px;
+    border-top: 4px solid white;
+}
+
+.Kegiatan h2{
+    color: #ffffff;
+    font-family: 'Satisfy';
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.vidyt b{
+    color: red;
+    margin-left: 50px;
+
+}
+
+.vidyt iframe{
+    margin-bottom: 100px;
+    margin-left: 40px;
+    padding-right: 60px;
+}
+
+#carousel-caption h5 strong{
+    color: yellow;
+}
+
+#carousel-inner h5, p{
+    color: yellow;
+    font-size: large;
+}
+
+.Hubungi{
+    background: url('img/merah.png');
+    height: 300px;
+}
+
+.Hubungi h2{
+    color: #ffffff;
+    font-family: 'Satisfy';
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.Hubungi hr{
+    width: 300px;
+    border-top: 4px solid white;
+}
+
+.Hubungi form{
+    margin-left: 170px;
+}
+
+.form-group{
+    color: white;
+    font-weight: bolder;
+}
+
+.hubungi1{
+    margin-top: 50px;
+    margin-bottom: 90px;
+
+}
+
+.hubungi1 p{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.section{
+    widows: auto;
+}
+
+.section p{
+    color:white;
+    font-weight: bolder;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    bottom: 0;
+    background-color: black;
+}
+
+footer p{
+    color: white;
+    font-size: 18px;
+    padding-top: 90px;
+}
+
+footer p a{
+    color:yellow;
+}
+
+.thumbnail img{
+    width: 100%;
+
+}
